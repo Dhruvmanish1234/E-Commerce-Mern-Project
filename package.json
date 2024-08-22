@@ -1,20 +1,55 @@
 {
-  "name": "api",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "serverApi": "nodemon app.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "e_commerce",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "express": "^4.19.2",
-    "mongoose": "^8.5.1",
-    "multer": "^1.4.5-lts.1",
-    "node-modules": "^1.0.1",
-    "nodemailer": "^6.9.14",
-    "nodemon": "^3.1.4"
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@mui/icons-material": "^5.16.5",
+    "@mui/material": "^5.16.5",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@reduxjs/toolkit": "^2.2.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "dom": "^0.0.3",
+    "mdb-react-ui-kit": "^8.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.1.12",
+    "web-vitals": "^2.1.4"
   },
-  "description": ""
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000/",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
 }
